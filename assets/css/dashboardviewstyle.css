@@ -1,0 +1,97 @@
+body {
+  padding-bottom: 70px;
+}
+.navbar-default {
+    background-image: none;
+    background-color: #3498DB;
+    border: 0;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>h5 {
+    color: #fff;
+    padding-left: 5px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: #808080;
+  color: #000;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    color: #000 !important;
+    background-image: none;
+    background-color: #fff !important;
+}
+/*PromoTable*/
+#promoTable tbody tr:hover{
+  background-color: #3498DB;
+  color: #000;
+}
+#promoTable tbody .btn{
+  margin: 5% 5% 5% 5%;
+}
+#promoTable tbody .btn:hover{
+  color: #3498DB !important;
+}
+.fa-toggle-on{
+  color: #50c878 !important;
+}
+.fa-toggle-off{
+  color: #696969 !important;
+}
+.fa-times{
+  color: #ff0011 !important;
+}
+#promoTable td,#promoTable th{
+  text-align: center;
+  vertical-align:middle;
+}
+#promoTable td.last,#promoTable th.last{
+    width: 1px;
+    white-space: nowrap;
+}
+
+/*Booking Table*/
+#bookingTable tbody tr:hover{
+  background-color: #3498DB;
+  color: #000;
+}
+#bookingTable tbody .btn{
+  margin: 5% 5% 5% 5%;
+}
+#bookingTable tbody .btn:hover{
+  color: #3498DB !important;
+}
+#bookingTable td,#bookingTable th{
+  text-align: center;
+  vertical-align:middle;
+}
+#bookingTable td.last,#bookingTable th.last{
+    width: 1px;
+    white-space: nowrap;
+}
+#downloadCSV{
+  position: relative;
+  float: right;
+  background-color: #3498DB;
+  color: #fff;
+  border: 2px solid #3498DB;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#downloadCSV:hover {
+    background-color: #007e7a;
+    color: #fff;
+}

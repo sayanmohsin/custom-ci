@@ -1,0 +1,77 @@
+html, body {
+	font-family: Open Sans;
+	margin: 0;
+}
+#options select, #options input[type='text'] {
+	height: 35px;
+	font-size: 15px;
+	font-family: Open Sans;
+	border-right: 3px;
+	width: 100%;
+	/*border: 1px solid #676767;
+	border-top: none;
+	border-radius: 5px;*/
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+}
+#apply-coupon{
+	width: 70%;
+}
+.mainview-btn{
+	background-color: #03cfc9;
+	color: #fff;
+	border: 2px solid #008CBA;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.mainview-btn:hover {
+    background-color: #007e7a;
+    color: #fff;
+}
+#coupon-code{
+  width: 50%;
+}
+input[type="button"] {
+	border: 1px solid #676767;
+	height: 35px;
+	font-size: 15px;
+	font-family: Open Sans;
+	outline: none;
+	width: 150px;
+}
+.select {
+	margin: 5px;
+}
+#fees-calculated {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+#fees-calculated * {
+	margin: 10px;
+}
+#reg-fees, #course-fees {
+	margin-left: 25px;
+}
+#total-fees {
+	padding: 10px;
+	border: 1px solid #484848;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 auto;
+	width: 95%;
+}
+.checkbox-inline, .radio-inline {
+    padding-left: 60px;
+}		
